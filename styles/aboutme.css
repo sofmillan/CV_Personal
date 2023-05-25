@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    background-color:#15252C ;
+    height:3rem;
+    padding:0.5rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap:1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+main .aboutme-section{
+    display:flex;
+    padding:1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    
+
+}
+
+main .aboutme-section p{
+    text-align:justify;
+    min-width:320px;
+    max-width: 400px;
+}

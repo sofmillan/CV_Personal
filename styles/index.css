@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-image: url('https://thumbs.dreamstime.com/b/black-forest-background-banner-moody-landscape-panorama-fog-mist-fir-trees-foggy-morning-dawn-230668608.jpg');
+    height:80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color:#15252C ;
+    height:3rem;
+    padding:0.5rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap:1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+main .profile-pic{
+    width:80px;
+    display: block;
+    margin:1rem auto;
+    border-radius: 8px;
+}
+
+main .title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main .personal-information h3{
+    background-color:#d8d8d8;
+    padding:1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+main .personal-information ul {
+    padding:2rem;
+}
+
+main .personal-information ul li{
+    list-style:circle;
+}
+
+main .personal-information ul span{
+    font-style: italic;
+}
+
+footer{
+    background-color:#15252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    height:3rem;
+}
+
+footer img{
+    width:1rem;
+    filter: invert();
+}
